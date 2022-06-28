@@ -1,0 +1,45 @@
+{
+   "checksum": "4d7a5092a2a5a5af9ac3aa78b573b7f8",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13300903430299350",
+            "guid": "34d183df-2865-4bee-ba15-78ef51e4283a",
+            "id": "5",
+            "name": "fubo TV - Free Trial",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.fubo.tv/lp/dell/?irad=343747&irmp=2423878&sharedid=edge"
+         } ],
+         "date_added": "13300903430101918",
+         "date_modified": "13300903430299350",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13300903430101922",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13300903430101923",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
