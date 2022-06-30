@@ -1,26 +1,29 @@
+import 'package:buddiesgram/pages/HomePage.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:instagram/pages/HomePage.dart';
 
-void main() {
+void main()
+{
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(const MyApp());
+  Firestore.instance.settings(timestampsInSnapshotsEnabled: true);
+
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Insta Winsta',
+      title: 'BuddiesGram',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-          primarySwatch: Colors.grey,
-          scaffoldBackgroundColor: Colors.black,
-          cardColor: Colors.white70,
-          accentColor: Colors.black,
-          dialogBackgroundColor: Colors.black),
+      theme: ThemeData
+      (
+        scaffoldBackgroundColor: Colors.black,
+        dialogBackgroundColor: Colors.black,
+        primarySwatch: Colors.grey,
+        accentColor: Colors.black,
+        cardColor: Colors.white70,
+      ),
       home: HomePage(),
     );
   }
